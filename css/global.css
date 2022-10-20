@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family= Karla:ital,wght@0,400;1,700 & display=swap');
+
+body{
+    background: var(--Light-Gray);
+}
+
+main{
+    padding-top: 72px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+h1{
+    font-size:20px;
+    color: var(--Cyan);
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+h2{
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 18px;
+    
+}
