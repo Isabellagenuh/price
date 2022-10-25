@@ -1,0 +1,76 @@
+.superior{
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-radius:5px;
+    background-color: white;
+}
+
+.superior p:first-child {
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Bright-Yellow);
+    margin-bottom: 16px;
+}
+
+.superior p:last-child {
+    line-height:1.625rem;
+    text-decoration-color: var(--Grayish-Blue);
+    font-size: 0.875rem;
+
+}
+
+.esquerda{
+    background: var(--Cyan);
+    padding: 1.5rem;
+}
+
+.esquerda div p:first-child {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.esquerda div p:last-child{
+    color: white;
+    opacity:0.5;
+}
+
+.esquerda div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.esquerda p{
+    color: white;
+    line-height: 26px;
+    margin-bottom: 26px;
+}
+
+.esquerda button{
+    padding-block:16px;
+    width: 100px;;
+    color:white;
+    font-size:16px;
+    line-height: 18px;
+    border: none;
+    background: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita{
+    background: var(--light-cyan);
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.direita p{
+   line-height: 20px;
+   font-size: 14px;
+   color: white;
+   opacity: 0.75;
+}

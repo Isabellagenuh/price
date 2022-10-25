@@ -2,6 +2,7 @@
 
 body{
     background: var(--Light-Gray);
+    font-family: 'Karla';
 }
 
 main{
